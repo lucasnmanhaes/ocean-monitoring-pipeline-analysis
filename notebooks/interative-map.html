@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_95f3574aa2d17c7a54d7c4a638857c6f {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_95f3574aa2d17c7a54d7c4a638857c6f" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_95f3574aa2d17c7a54d7c4a638857c6f = L.map(
+                "map_95f3574aa2d17c7a54d7c4a638857c6f",
+                {
+                    center: [-20.0, -45.0],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 4,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_958ad04f97bb8b7988492b93f0eb06e8 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_958ad04f97bb8b7988492b93f0eb06e8.addTo(map_95f3574aa2d17c7a54d7c4a638857c6f);
+        
+    
+            var circle_marker_c7001f0f98fdaf0960db40b7a5ac16be = L.circleMarker(
+                [-13.1, -38.5],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_95f3574aa2d17c7a54d7c4a638857c6f);
+        
+    
+        var popup_c8852b279b83a908456f1f93c89cb1d3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a76e2890325a076447f773cf79cd90ae = $(`<div id="html_a76e2890325a076447f773cf79cd90ae" style="width: 100.0%; height: 100.0%;">Salvador<br>Compound freq: 1.47%<br>Intensity: 3.25</div>`)[0];
+                popup_c8852b279b83a908456f1f93c89cb1d3.setContent(html_a76e2890325a076447f773cf79cd90ae);
+            
+        
+
+        circle_marker_c7001f0f98fdaf0960db40b7a5ac16be.bindPopup(popup_c8852b279b83a908456f1f93c89cb1d3)
+        ;
+
+        
+    
+    
+            var circle_marker_e9de4135c929fe49bbb675dd412f430d = L.circleMarker(
+                [-22.9, -43.2],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_95f3574aa2d17c7a54d7c4a638857c6f);
+        
+    
+        var popup_c04c9d7011710fb45b62674e08c1aef8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fd8d82d7a1bb8ab2863803fda68f48ef = $(`<div id="html_fd8d82d7a1bb8ab2863803fda68f48ef" style="width: 100.0%; height: 100.0%;">Rio De Janeiro<br>Compound freq: 0.62%<br>Intensity: 2.67</div>`)[0];
+                popup_c04c9d7011710fb45b62674e08c1aef8.setContent(html_fd8d82d7a1bb8ab2863803fda68f48ef);
+            
+        
+
+        circle_marker_e9de4135c929fe49bbb675dd412f430d.bindPopup(popup_c04c9d7011710fb45b62674e08c1aef8)
+        ;
+
+        
+    
+    
+            var circle_marker_9035a3c8fd40c272af980ffe7448b61f = L.circleMarker(
+                [-24.1, -46.3],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_95f3574aa2d17c7a54d7c4a638857c6f);
+        
+    
+        var popup_a6723b6040ffada5da081b5b6afca45f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d793c7515a69c83008083b1ade31ded9 = $(`<div id="html_d793c7515a69c83008083b1ade31ded9" style="width: 100.0%; height: 100.0%;">Santos<br>Compound freq: 0.91%<br>Intensity: 2.59</div>`)[0];
+                popup_a6723b6040ffada5da081b5b6afca45f.setContent(html_d793c7515a69c83008083b1ade31ded9);
+            
+        
+
+        circle_marker_9035a3c8fd40c272af980ffe7448b61f.bindPopup(popup_a6723b6040ffada5da081b5b6afca45f)
+        ;
+
+        
+    
+    
+            var circle_marker_226d2396c70a115080a6b21ed83d9e69 = L.circleMarker(
+                [-27.6, -48.4],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_95f3574aa2d17c7a54d7c4a638857c6f);
+        
+    
+        var popup_7293c0c3d0b27591e52f3e494481e81a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2c0b2a8e26174da3e5f1555ca118e5da = $(`<div id="html_2c0b2a8e26174da3e5f1555ca118e5da" style="width: 100.0%; height: 100.0%;">Florianopolis<br>Compound freq: 1.11%<br>Intensity: 2.70</div>`)[0];
+                popup_7293c0c3d0b27591e52f3e494481e81a.setContent(html_2c0b2a8e26174da3e5f1555ca118e5da);
+            
+        
+
+        circle_marker_226d2396c70a115080a6b21ed83d9e69.bindPopup(popup_7293c0c3d0b27591e52f3e494481e81a)
+        ;
+
+        
+    
+    
+            var circle_marker_c0978a075d0b230b74d69bc83bd466af = L.circleMarker(
+                [-32.2, -51.2],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_95f3574aa2d17c7a54d7c4a638857c6f);
+        
+    
+        var popup_76afbb314575bc1ca6b3b76324ed5743 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cf655c168d455a330d4e2a07ffbb036c = $(`<div id="html_cf655c168d455a330d4e2a07ffbb036c" style="width: 100.0%; height: 100.0%;">Rio Grande<br>Compound freq: 1.56%<br>Intensity: 2.94</div>`)[0];
+                popup_76afbb314575bc1ca6b3b76324ed5743.setContent(html_cf655c168d455a330d4e2a07ffbb036c);
+            
+        
+
+        circle_marker_c0978a075d0b230b74d69bc83bd466af.bindPopup(popup_76afbb314575bc1ca6b3b76324ed5743)
+        ;
+
+        
+    
+</script>
+</html>

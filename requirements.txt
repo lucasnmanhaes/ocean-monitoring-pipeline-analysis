@@ -1,0 +1,29 @@
+# Core data processing
+numpy>=1.24
+pandas>=2.0
+xarray>=2023.0
+
+# NetCDF backend (required by xarray)
+netCDF4>=1.6
+
+# Copernicus Marine Service API
+copernicusmarine>=1.0
+
+# Database
+sqlalchemy>=2.0
+psycopg2-binary>=2.9
+
+# Scientific computing
+scipy>=1.10
+
+# Visualization
+matplotlib>=3.7
+seaborn>=0.12
+
+# Interactive maps (NOTEBOOK 2 - FINAL SECTION)
+folium>=0.15
+
+# Jupyter environment
+notebook>=7.0
+jupyterlab>=4.0
+ipykernel>=6.0

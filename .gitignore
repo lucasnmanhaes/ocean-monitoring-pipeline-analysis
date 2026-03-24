@@ -1,0 +1,20 @@
+# Ignore contents inside data folders, but keep structure
+data/raw/*
+data/processed/*
+
+# Keep folders tracked
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# NetCDF files
+*.nc
+
+# Python
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment
+.env
